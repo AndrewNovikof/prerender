@@ -1,13 +1,16 @@
 {
   "author": "Prerender.io",
-  "name": "prerender",
+  "name": "@omay/prerender",
+  "repository": {
+    "type": "git",
+    "url": "git+https://stash.vsegda.da/scm/omay_front/omay-prerender.git"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.vsegda.da/api/npm/npm-local/"
+  },
   "description": "Service to prerender Javascript rendered pages for SEO",
   "version": "5.20.2",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/prerender/prerender"
-  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "chrome-remote-interface": "^0.30.0",
